@@ -1,0 +1,38 @@
+CIWndSetSpeed(m_Video,1000);
+MCIWndPlay(m_Video);
+
+FreeResource(m_Video);
+}
+catch(exception e)
+{
+	
+}
+
+#else 
+
+//	FILE *fp;
+//fp = fopen("svf.txt","w");
+*/
+int x_1;
+x_1 = OnButtonPlaysine("D:\\Braillie\\output\\fb10.wav");
+Sleep(x_1*100);
+x_1 = OnButtonPlaysine("D:\\Braillie\\output\\fb13.wav");
+Sleep(x_1*100);
+//OnButtonPlaysine("D:\\Braillie\\output\\fb13.wav");
+//OnButtonPlaysine("D:\\Braillie\\output\\fb13.wav");
+//m_fileName = "D:\\Braillie\\output\\fb11.wav";
+//fprintf(fp,"%d",m_fileName.GetLength());
+/*int x_1;
+x_1 = OnButtonPlaysine("D:\\Braillie\\output\\fb10.wav");
+Sleep(6430);
+x_1 = OnButtonPlaysine("D:\\Braillie\\output\\fb13.wav");
+Sleep(3760);
+x_1 = OnButtonPlaysine("D:\\Braillie\\output\\fb11.wav");
+Sleep(4390);
+x_1 = OnButtonPlaysine("D:\\Braillie\\output\\fb12.wav");
+*/
+//fclose(fp);
+
+//#endif
+//free(m_Video);
+//	::MessageBox(NULL,"finished","sudheer",MB_OK);

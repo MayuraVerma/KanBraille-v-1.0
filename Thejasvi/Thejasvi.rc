@@ -1,0 +1,246 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Thejasvi.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Thejasvi.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Kannada Braille"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Kannada Braille Software v1.2",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2014",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,164,17,50,14,WS_GROUP
+END
+
+IDD_THEJASVI_DIALOG DIALOGEX 0, 0, 427, 252
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Kannada Braillie v1.2"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         142,IDC_STATIC,"Static",SS_BITMAP,201,68,202,30
+    CONTROL         141,IDC_STATIC,"Static",SS_BITMAP,0,43,200,209
+    CONTROL         155,IDC_STATIC_BRAILLIE,"Static",SS_BITMAP | SS_NOTIFY | 
+                    WS_TABSTOP,223,131,73,18
+    CONTROL         150,IDC_STATIC_KAN_BRAILLIE,"Static",SS_BITMAP | 
+                    SS_NOTIFY | WS_TABSTOP,222,168,73,18
+    CONTROL         152,IDCANCEL,"Static",SS_BITMAP | SS_NOTIFY,284,209,73,
+                    18
+    CONTROL         154,IDC_STATIC_HELP,"Static",SS_BITMAP | SS_NOTIFY | NOT 
+                    WS_VISIBLE,9,223,73,18
+    CONTROL         153,IDC_STATIC_CONVERTER,"Static",SS_BITMAP | SS_NOTIFY | 
+                    NOT WS_VISIBLE | WS_DISABLED,111,225,73,18
+    CONTROL         158,IDC_STATIC_MALE,"Static",SS_BITMAP | SS_NOTIFY,335,
+                    170,73,18
+    CONTROL         156,IDC_STATIC_FEMALE,"Static",SS_BITMAP | SS_NOTIFY,337,
+                    131,73,18
+    CONTROL         164,IDC_STATIC,"Static",SS_BITMAP,200,11,206,48
+    PUSHBUTTON      "Ani Keeta Na",IDC_ANIKETANA,224,129,74,21,BS_CENTER | 
+                    BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "Mahi Laa Dwani",IDC_F_VOICE,337,130,73,22,BS_CENTER | 
+                    BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "Anu Tta ra",IDC_ANUTTARA,221,167,76,22,BS_CENTER | 
+                    BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "Pu ru sha dwani",IDC_M_VOICE,336,168,74,21,BS_CENTER | 
+                    BS_VCENTER | BS_FLAT
+    PUSHBUTTON      "Ho ra gay",IDC_EXIT,284,208,74,21
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,2,0,1
+ PRODUCTVERSION 1,2,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Kannada Braille v1.2\0"
+            VALUE "FileVersion", "1, 2, 0, 1\0"
+            VALUE "InternalName", "Thejasvi\0"
+            VALUE "LegalCopyright", "Copyright (C) 2014\0"
+            VALUE "LegalTrademarks", "Kannada and Culture Department\0"
+            VALUE "OriginalFilename", "Kannada Braille\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Kannada Braille Application\0"
+            VALUE "ProductVersion", "1, 2, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP  DISCARDABLE     "res\\Tejasvi_GUI 300 340.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\Title.bmp"
+IDB_Anikethana_1        BITMAP  DISCARDABLE     "res\\Anikethana_1.bmp"
+IDB_Anutthara           BITMAP  DISCARDABLE     "res\\Anutthara.bmp"
+IDB_Anutthara_1         BITMAP  DISCARDABLE     "res\\Anutthara_1.bmp"
+IDB_Horage              BITMAP  DISCARDABLE     "res\\Horage.bmp"
+IDB_Parivarthaka        BITMAP  DISCARDABLE     "res\\Parivarthaka.bmp"
+IDB_Sahaya              BITMAP  DISCARDABLE     "res\\Sahaya.bmp"
+IDB_Anikethana          BITMAP  DISCARDABLE     "res\\Anikethana.bmp"
+IDB_FEMALE              BITMAP  DISCARDABLE     "res\\Mahila Dhvani.bmp"
+IDB_FEMALE_1            BITMAP  DISCARDABLE     "res\\Mahila Dhvani_1.bmp"
+IDB_MALE                BITMAP  DISCARDABLE     "res\\Purusha Dhvani.bmp"
+IDB_MALE_1              BITMAP  DISCARDABLE     "res\\Purusha Dhvani_1.bmp"
+IDB_BITMAP10            BITMAP  DISCARDABLE     "res\\bitmap10.bmp"
+IDB_BITMAP11            BITMAP  DISCARDABLE     "res\\Name_Title.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Kannada Braille Software"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Thejasvi.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,18 @@
+# Microsoft Developer Studio Generated Dependency File, included by KanBrail.mak
+
+.\KanBrail.cpp : \
+	"..\headers\Flags.h"\
+	"..\headers\keyfuncts.h"\
+	".\KanBrail.h"\
+	".\KeyComb.h"\
+	".\SpeechLib.h"\
+	
+
+.\KanBrail.rc : \
+	".\res\KanBrail.rc2"\
+	
+
+.\StdAfx.cpp : \
+	".\StdAfx.h"\
+	"d:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

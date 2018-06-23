@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: KanBrail - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/KanBrail.res" /d "_DEBUG" /d "_AFXDLL" "Z:\sudheer\Projects\Kannada\Windows\ascii\keyboard\braille\KanBrail\KanBrail.rc"" 
+Creating temporary file "C:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPDE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/KanBrail.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\sudheer\Projects\Kannada\Windows\ascii\keyboard\braille\KanBrail\KanBrail.cpp"
+"Z:\sudheer\Projects\Kannada\Windows\ascii\keyboard\braille\KanBrail\KeyComb.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPDE.tmp" 
+Creating temporary file "C:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPDF.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "_WINDLL" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/KanBrail.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\sudheer\Projects\Kannada\Windows\ascii\keyboard\braille\KanBrail\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPDF.tmp" 
+Creating temporary file "C:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPE0.tmp" with contents
+[
+..\KannadaBraille\SpeechLib.lib vfw32.lib Winmm.lib Kernel32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"..\KannadaBraille\KanBrail.pdb" /debug /machine:I386 /def:".\KanBrail.def" /out:"..\KannadaBraille\KanBrail.dll" /implib:"..\KannadaBraille\KanBrail.lib" /pdbtype:sept 
+.\Debug\KanBrail.obj
+.\Debug\KeyComb.obj
+.\Debug\StdAfx.obj
+.\Debug\KanBrail.res
+]
+Creating command line "link.exe @C:\DOCUME~1\sudheer\LOCALS~1\Temp\RSPE0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+KanBrail.cpp
+KeyComb.cpp
+Generating Code...
+Linking...
+   Creating library ..\KannadaBraille\KanBrail.lib and object ..\KannadaBraille\KanBrail.exp
+
+
+
+<h3>Results</h3>
+KanBrail.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

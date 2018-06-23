@@ -1,0 +1,86 @@
+﻿Build started 04-11-2012 12:40:32.
+     1>Project "C:\sudheer\Projects\Kannada\BRAILLIE\KanBrail\KanBrail.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\KanBrail.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _WINDLL /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\KanBrail.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D _WINDLL /D _VC80_UPGRADE=0x0600 /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\KanBrail.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt KanBrail.cpp KeyComb.cpp
+         KeyComb.cpp
+         KanBrail.cpp
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(52): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(125): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(117): warning C4101: 'dwRet' : unreferenced local variable
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(71): warning C4101: 'b' : unreferenced local variable
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(515): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(516): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(534): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(536): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(538): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(540): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(554): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(557): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(558): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(560): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(1247): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(1255): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(1277): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(1279): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(1281): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+         Generating Code...
+     1>c:\sudheer\projects\kannada\braillie\kanbrail\kanbrail.cpp(218): warning C4715: 'lSet_KeyBoard_KanBrail_v1' : not all control paths return a value
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0409" /nologo /fo".\Debug\KanBrail.res" KanBrail.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\KanBrail.dll.embed.manifest.res" .\Debug\KanBrail_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\output\KanBrail.dll" /INCREMENTAL /NOLOGO ..\output\SpeechLib.lib vfw32.lib Winmm.lib Kernel32.lib /DEF:".\KanBrail.def" /MANIFEST /ManifestFile:".\Debug\KanBrail.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\sudheer\Projects\Kannada\BRAILLIE\output\KanBrail.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\output\KanBrail.lib" /MACHINE:X86 /DLL .\Debug\KanBrail.res
+         .\Debug\KanBrail.dll.embed.manifest.res
+         .\Debug\KanBrail.obj
+         .\Debug\KeyComb.obj
+         .\Debug\StdAfx.obj
+     1>LINK : warning LNK4076: invalid incremental status file '.\..\output\KanBrail.ilk' (which will be deleted); linking nonincrementally
+     1>.\KanBrail.def(4): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library .\..\output\KanBrail.lib and object .\..\output\KanBrail.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\KanBrail.dll.embed.manifest" /manifest .\Debug\KanBrail.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\KanBrail.dll.embed.manifest.res" .\Debug\KanBrail_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\..\output\KanBrail.dll" /INCREMENTAL /NOLOGO ..\output\SpeechLib.lib vfw32.lib Winmm.lib Kernel32.lib /DEF:".\KanBrail.def" /MANIFEST /ManifestFile:".\Debug\KanBrail.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\sudheer\Projects\Kannada\BRAILLIE\output\KanBrail.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\..\output\KanBrail.lib" /MACHINE:X86 /DLL .\Debug\KanBrail.res
+         .\Debug\KanBrail.dll.embed.manifest.res
+         .\Debug\KanBrail.obj
+         .\Debug\KeyComb.obj
+         .\Debug\StdAfx.obj
+     1>.\KanBrail.def(4): warning LNK4017: DESCRIPTION statement not supported for the target platform; ignored
+            Creating library .\..\output\KanBrail.lib and object .\..\output\KanBrail.exp
+         KanBrail.vcxproj -> C:\sudheer\Projects\Kannada\BRAILLIE\KanBrail\.\..\output\KanBrail.dll
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\..\output\KanBrail.bsc" .\Debug\KanBrail.sbr .\Debug\KeyComb.sbr .\Debug\StdAfx.sbr
+       CopyFilesToOutputDirectory:
+         Copying file from ".\Debug\KanBrail.pdb" to ".\..\output\KanBrail.pdb".
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\KanBrail.unsuccessfulbuild".
+         Touching ".\Debug\KanBrail.lastbuildstate".
+     1>Done Building Project "C:\sudheer\Projects\Kannada\BRAILLIE\KanBrail\KanBrail.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.10
