@@ -89,7 +89,7 @@ BEGIN
             VALUE "LegalTrademarks", "\0"
             VALUE "OriginalFilename", "Netravathi.dll\0"
             VALUE "PrivateBuild", "\0"
-            VALUE "ProductName", "Kuvempu Kannada Thantramsha\0"
+            VALUE "ProductName", "KanForge\0"
             VALUE "ProductVersion", "1, 0, 0, 1\0"
             VALUE "SpecialBuild", "\0"
         END
